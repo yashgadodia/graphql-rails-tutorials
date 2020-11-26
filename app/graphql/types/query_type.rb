@@ -16,7 +16,7 @@ module Types
     # this method is invoked, when `all_link` fields is being resolved
     # basically when i pass all_links field in my query, this is the method block being invoked
     def all_links
-      Link.all
+      Link.all #the query returns all links
     end
 
     # # TODO: remove me
